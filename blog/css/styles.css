@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+}
+header {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.rightheader {
+    margin-top: 3rem;
+}
+.rightheader h1{
+    margin-bottom: 0;
+    font-size: 3rem;
+    color: rgb(218, 83, 105);
+}
+.rightheader p {
+    margin-top: 0.2rem;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+nav {
+    border-top: 2px solid rgb(180, 33, 58);
+    border-bottom: 2px solid #d66ab2;
+    padding: 0.5rem;
+}
+nav a:hover {
+    color:#A51F10;
+}
+article {
+    margin: 2rem 0;
+    padding: 2rem;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+article img{
+    float: left;
+    margin: 0 1rem 1rem 0;
+    border-radius: 10px;
+}
+article:after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+article h2 {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+article p{
+    margin-top: 4rem;
+    font-size: 80%;
+    margin-top: 0;
+}
+article p.posted {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+article a:hover{
+    color:#A51F10;
+}
+section {
+    border-bottom: 2px solid #d66ab2;
+    margin-bottom: 0.3rem;
+}
+footer ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+footer {
+    border-top: 2px solid rgb(180, 33, 58);
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Masters</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+  href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
+</head>
+<body>
+    <header>
+        <img src="./coffee_masters_logo.png">
+        <p>Coffee Masters</p>
+    </header>
+    <div class="containers">
+    <div class= "container-1">
+        <h2>ITEMS</h2>
+        <ul class="cappucino-1">
+            <li class="times-1">1x</li>
+            <li class="item-1">Cappucino</li>
+            <li class="price-1">$6.00 </li>
+            <li class="type-1">Light Foam</li>
+        </ul>
+        <ul class="cappucino-2">
+            <li class="times-2">1x</li>
+            <li class="item-2">Cappucino</li>
+            <li class="price-2">$7.90 </li>
+            <li class="type-2">Almond Milk</li>
+            <li class="type-3">Double Expresso Shot</li>
+        </ul>
+        <ul class="croissant">
+            <li class="times-3">1x</li>
+            <li class="item-3">Croissant</li>
+            <li class="price-3">$5.37</li>
+            <li class="type-4">Butter</li>
+        </ul>
+    </div>
+    <div class="container-2">
+        <legend><h2>NAME</h2></legend>
+        <div class="name">
+			<label for="name" class="name-label">Name for order</label>
+			<input type="text" id="name" name="person" class="name-input">
+        </div>
+    </div>
+    <div class="container-3">
+        <legend><h2>PAYMENT</h2></legend>
+            <div class="payment">
+			<label for="card" class="card-label">Card number</label>
+			<input type="text" id="card" name="card" class="card-input">
+            <label for="cvv" class="cvv-label">CVV Number</label>
+			<input type="text" id="cvv" name="cvv" class="cvv-input">
+        </div>
+    </div>
+</div>
+    <div class="totals">
+        <ul class="subtotal">
+            <li class="subtotal1">Subtotal:</li>
+            <li class="total-price"> $9.65</li>
+            <li class="tax">Tax:</li>
+            <li class="tax-price">$0.82</li>
+            <li class="sum">Total:</li>
+            <li class="sum-total">$10.47</li>
+        </ul>
+        <button type="submit" class="button">Place order</button>
+    </div>
+</body>
+</html>

@@ -232,6 +232,9 @@ h2 {
     top: 47px;
     padding: 0 2px;
 }
+.cvv-input {
+    width: 200px;
+}
 .cvv-label{
     background-color: #EEE1D5;
     color: #C6922D;
@@ -299,4 +302,5 @@ button {
 
 button:hover {
     background-color: #b18254;
+    color: white;
 }

@@ -22,6 +22,7 @@ const increasePeople = () => {
 const decreasePeople = () => {
     if (numberOfPeople <= 1){
         alert ('you cannot go less than 1 person')
+        return
     }
     numberOfPeople -=1;
     numberOfPeopleDiv.innerText = numberOfPeople;

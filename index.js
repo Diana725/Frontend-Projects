@@ -23,11 +23,12 @@ function getAgeGroup(yearOfBirth) {
 
 function displayAgeGroup() {
     const yearOfBirth = document.getElementById('age').value;
+    const username = document.getElementById('username').value;
     if (yearOfBirth < 1901) {
         document.getElementById('result').innerText = 'Please Enter An Year of Birth Greater that 1901.';
     }
     else {
         const result = getAgeGroup(yearOfBirth);
-        document.getElementById('result').innerText = `You belong to: ${result}`;
+        document.getElementById('result').innerText = 'Hi '+ username + `! You belong to: ${result}`;
     }
 }
